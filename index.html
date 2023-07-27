@@ -489,7 +489,6 @@
 				email: document.getElementById("email").value,
 				message: document.getElementById("message").value
 			};
-			console.log(templateParams)
 
 			emailjs.send('service_9jov7ta', 'template_je5naph', templateParams)
 				.then(function (response) {
